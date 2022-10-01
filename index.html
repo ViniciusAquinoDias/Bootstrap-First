@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body class="bg-light">
+
+  <!-----------Header--------->
+  <div class="container">
+    <div class="row p-1">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="./Airplane.png" style="max-width: 50px; max-height: 50px;" alt="logo de nossa compania">
+        <a class="navbar-brand fw-semibold fs-3 px-4" href="#">AirBrasil</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Inicio <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lugares</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Mais
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!-----------Header-End--------->
+
+  <!-- banner carrousel -->
+  <div class="banner " style="background-image: url(./miami-florida-hotel-room-wallpaper-preview.jpg); background-repeat: no-repeat; background-size: cover; background-position: center; background-blend-mode: soft-light; background-color: rgba(0, 0, 0, 0.507);">
+    <div class="container">
+      <div class="row bannerSpacing d-flex align-items-center h-100">
+        <h1 class="text-light fw-bold pb-1">AirBrasil</h1>
+        <p style="font-size: 2rem;" class="text-primary">O melhor hotel para sua viagem</p>
+        <button class="w-25 bg-transparent text-primary fw-bold border-0">Ver Mais</button>
+      </div>
+    </div>
+  </div>
+  <!-- banner carrousel-End -->
+
+  <!-- Slider main container -->
+    <!-- recomend cards -->
+    <div class="container text-md-start">
+      <div class="row py-5 m-auto">
+        <h2 class="mb-4">Recomendados:</h2>
+        <div class="col py-3">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img src="./Alemanha-munique.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Alemanha</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est optio?</p>
+              <a href="#" class="btn btn-primary stretched-link">Ver Mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col py-3">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img src="./china.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">China</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est optio?</p>
+              <a href="#" class="btn btn-primary stretched-link">Ver Mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col py-3">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img src="./inglaterra.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Inglaterra</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est optio?</p>
+              <a href="#" class="btn btn-primary stretched-link">Ver Mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+<!-- recomend cards-End -->
+
+  <div class="swiper py-1">
+    <h2 class="p-3">Hoteis na Alemanha:</h2>
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <div class="col">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img src="./miami-florida-hotel-room-wallpaper-preview.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Hotel-1</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est optio?</p>
+              <a href="#" class="btn btn-primary stretched-link">Ver Mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="col">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img src="./hotel-the-setai-miami-beach-helice-tours-5-1-500x300.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Hotel-2</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est optio?</p>
+              <a href="#" class="btn btn-primary stretched-link">Ver Mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="col">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img src="./small_piscnia_2_alegro_hotel_by_taua_6_Geder_1_cb1e5e6e95_507bb86ac5.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Hotel-3</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est optio?</p>
+              <a href="#" class="btn btn-primary stretched-link">Ver Mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+  </div>
+
+  <div class="swiper py-1">
+    <h2 class="p-3">Hoteis na Inglaterra:</h2>
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <div class="col">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img src="./miami-florida-hotel-room-wallpaper-preview.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Hotel-1</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est optio?</p>
+              <a href="#" class="btn btn-primary stretched-link">Ver Mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="col">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img src="./hotel-the-setai-miami-beach-helice-tours-5-1-500x300.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Hotel-2</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est optio?</p>
+              <a href="#" class="btn btn-primary stretched-link">Ver Mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="col">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img src="./small_piscnia_2_alegro_hotel_by_taua_6_Geder_1_cb1e5e6e95_507bb86ac5.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Hotel-3</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est optio?</p>
+              <a href="#" class="btn btn-primary stretched-link">Ver Mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+  </div>
+
+  <div class="swiper py-1 pb-5">
+    <h2 class="p-3">Hoteis na China:</h2>
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <div class="col">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img src="./miami-florida-hotel-room-wallpaper-preview.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Hotel-1</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est optio?</p>
+              <a href="#" class="btn btn-primary stretched-link">Ver Mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="col">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img src="./hotel-the-setai-miami-beach-helice-tours-5-1-500x300.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Hotel-2</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est optio?</p>
+              <a href="#" class="btn btn-primary stretched-link">Ver Mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="col">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img src="./small_piscnia_2_alegro_hotel_by_taua_6_Geder_1_cb1e5e6e95_507bb86ac5.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Hotel-3</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est optio?</p>
+              <a href="#" class="btn btn-primary stretched-link">Ver Mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+  </div>
+
+  <!-- Slider main container-End -->
+
+
+  <footer class="bg-dark">
+    <div class="container d-flex justify-content-center align-items-center">
+    <div class="row">
+        <p class="text-bg-dark">© Todos os direitos reservados</p>
+      </div>
+    </div>  
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script>
+
+  const swiper = new Swiper('.swiper', {
+    direction: 'horizontal',
+    speed: 400,
+    spaceBetween: 10,
+    slidesPerView: 3,
+    loop: true,
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+    breakpoints: {
+    // when window width is >= 320px
+    1: {
+      slidesPerView: 1,
+      spaceBetween: 0
+    },
+    // when window width is >= 640px
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 0
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 0
+    },
+    1440: {
+      slidesPerView: 4,
+      spaceBetween: 0
+    },
+    2560:{
+      slidesPerView: 6,
+      spaceBetween: 0
+    }
+  }
+})
+
+</script>
+
+</html>
